@@ -276,6 +276,21 @@ export const Sidebar: React.FC<SidebarProps> = ({
           })
         )}
       </div>
+
+      {/* Developer Credits Footer */}
+      <div className="p-4 border-t border-zinc-900 bg-zinc-950/40 text-center">
+        <p className="text-[10px] text-zinc-500 font-sans tracking-wide">
+          Made by{" "}
+          <a
+            href="https://prashantsharma.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-zinc-400 hover:text-cyan-400 font-medium transition-all"
+          >
+            Prashant Sharma
+          </a>
+        </p>
+      </div>
     </aside>
   );
 };
