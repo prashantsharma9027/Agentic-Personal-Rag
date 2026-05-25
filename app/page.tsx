@@ -32,7 +32,7 @@ export default function Home() {
     {
       id: "welcome",
       sender: "assistant",
-      text: "Welcome to MyPersonalAI! I'm powered by **Gemini Flash** and use semantic search over your personal document library to answer questions.\n\nUpload a document, click **\"Save & Embed\"** in the editor to index it, then ask me anything about it!",
+      text: "Welcome to **Agentic Personal RAG**! I'm powered by **Gemini Flash** and use semantic search and local ReAct agent tools to explore and manage your document library.\n\nUpload a document, click **\"Save & Embed\"** in the editor to vectorize it, and ask me anything or tell me to rewrite it!",
       timestamp: "12:30 PM",
       citations: []
     }

@@ -127,7 +127,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
           </div>
           <div>
-            <h1 className="font-semibold text-zinc-100 tracking-wide text-sm">MyPersonalAI</h1>
+            <h1 className="font-semibold text-zinc-100 tracking-wide text-xs leading-none">Agentic Personal RAG</h1>
             <span className="text-[10px] text-zinc-500 font-mono tracking-wider">Gemini Powered</span>
           </div>
         </div>
